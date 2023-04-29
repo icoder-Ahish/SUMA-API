@@ -13,7 +13,7 @@
 # Usage  
 ## (1) Import the required libraries:
 
-  import streamlit as st
+    import streamlit as st
     import pandas as pd
     import altair as alt
     from xmlrpc.client import ServerProxy
@@ -79,5 +79,7 @@
 
     client.auth.logout(key)
     
-    
+## (10)Run Your Application
+
+    streamlit run file_name.py
 
